@@ -1,0 +1,3 @@
+var userName = readLine("What is your name? ");
+var movieTime = readInt("What time should we meet for a movie? ");
+println(`Hi ${userName}, I will meet you at ${movieTime} o'clock`);
