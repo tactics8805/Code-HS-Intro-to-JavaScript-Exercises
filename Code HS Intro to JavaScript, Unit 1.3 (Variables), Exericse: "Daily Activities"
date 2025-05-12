@@ -1,0 +1,12 @@
+var timeOfDay = "morning";
+var hour = 8;
+/*I could technically use this code:
+println(`In the $(timeOfDay), I wake up at $(hour).`);
+But this code violates the tests cases CodeHS has for this assignment. So I will keep it basic.*/
+println("In the " + timeOfDay + ", I wake up at " + hour + ".");
+timeOfDay = "afternoon";
+hour = 12;
+println("In the " + timeOfDay + ", I wake up at " + hour + ".");
+timeOfDay = "evening";
+hour = 11;
+println("In the " + timeOfDay + ", I wake up at " + hour + ".");
